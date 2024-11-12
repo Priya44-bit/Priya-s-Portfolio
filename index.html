@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyas's Portfolio</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("priyakhatik23@navgurukul.org"); // Replace with your EmailJS user ID
+        })();
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Priya's <span>Portfolio</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="darkmode-toggle" class="btn">
+            <div class="btn__indicator">
+              <div class="btn__icon-container">
+                <i class="btn__icon fa-solid"></i>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I am <span>Priya</span></h1>
+            <p>Hello! I'm a passionate Computer Science Engineering student with a deep love for coding and technology.
+                I have hands-on experience with languages such as  HTML, CSS, 
+                JavaScript, and My goal is to become a proficient Web Developer. I am also an
+                enthusiast in Artificial Intelligence and Machine Learning, constantly exploring and learning about the
+                latest advancements in the field. I am driven by curiosity and a desire to create impactful solutions
+                through code.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/priya-khatik-887a88321" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Priya44-bit" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/diyaa__48/" target="_blank"><i
+                        class='bx bxl-instagram-alt'></i></a>
+        
+            </div>
+            <div class="btn-group">
+                <a href="https://drive.google.com/file/d/1jrq48CK1QBoyokzHKIH8ql7Z3xcNQBiS/view?usp=sharing" download  class="btn">Download Resume</a>
+                <a href="#contact" class="btn">Contact</a>
+                <a href="https://docs.google.com/document/d/12LSVqUSvMoak_TbbP1WVRI9G0Xkng3MIR1SO-QRKoA0/edit?usp=sharing" class="btn">coursera</a>
+                <a href="https://docs.google.com/document/d/18PtFy6Hz_KYSOxYm5XF418MqppD_1ThcXFclO71XAsw/edit?usp=sharing" class="btn" >Web desiner</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="priya63.jpg" alt="Personal Picture">
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>Class 12th || Dr Bheem Rao Ambedkar goverment girls school Bhilwara || RBSE Board, Rajasthan Ajmer || Year
+                        of Passing: 2020 || Percentage: 94.20</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>Bachelor of  Science || MOHAN LAL SHUKHADIYA University
+                        || Udaipur, Rajasthan || Graduation Year: 2024 || Percentage: 65.00</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Course</h3>
+                    <p>Web Development Course || Duration: 15 month || During this Course, Web Development Course ||  Duration: 15 month || During this Course, I learned javascript  problem-solving skills and deepened my understanding of the language.
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e598880e-231b-40b3-83c9-60382115ee6d">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" name="name" autocomplete="off" required/>
+                    
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="email" autocomplete="off" required name="email"/>
+                    
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number" id="phone" name="phone"  autocomplete="off" required/>
+                    
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" id="subject" autocomplete="off" name="subject" required/>
+                    
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message" name="textarea"
+                    autocomplete="off" required></textarea>
+                
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    
+ <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/priya-khatik-887a88321?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLcCNC7unQ%2FG8R6ME3KnBWA%3D%3D" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Priya44-bit" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/diyaa__48/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://coursera.org/share/831aa2eda99fa075300d8dbfd5ec0a62" target=" _blank"><i class="bx bx1-coursera"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">FAQ</a></li>
+            <li><a href="#home">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            <i class='bx bx-copyright'></i> | Created By Priya Rath | 2024
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
